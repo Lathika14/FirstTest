@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MySuite" parallel="methods" thread-count="2">
+   <!-- <listeners>
+        <listener class-name="TestNGCode.ListenersExample"></listener>
+    </listeners>-->
+    <test name="Login">
+        <classes>
+            <class name="DataDriven.Login"></class>
+        </classes>
+    </test>
+</suite>
+
+
+        <!--<class name="TestNGCode.DependanciesManagment"></class>
+                   <class name="TestNGCode.SampleTest"></class>
+                   <class name="TestNGCode.SuiteExample"></class>-->
+
+        <!-- <groups>
+                    <run>
+                        <exclude name="Apple"></exclude>
+                        <exclude name="lenovo"></exclude>
+                        <include name="Moto"></include>
+                        <include name="vivo"></include>
+                    </run>
+                </groups>-->
+
+        <!-- <parameter name="Name" value="Lathika"></parameter>-->
+
+
+
+        <!--<test name="CrtPassword">
+                <parameter name="username" value="admin"></parameter>
+                <parameter name="paasword" value="admin123"></parameter>
+                <classes>
+                    <class name="DataDriven.CrtPassword"></class>
+                </classes>
+            </test>
+            <test name="CrtUsername">
+                <parameter name="username" value="Admin"></parameter>
+                <parameter name="paasword" value="admin"></parameter>
+                <classes>
+                    <class name="DataDriven.CrtUsername"></class>
+                </classes>
+            </test>-->

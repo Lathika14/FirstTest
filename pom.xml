@@ -7,6 +7,12 @@
     <groupId>org.example</groupId>
     <artifactId>FirstTest</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>untitled</module>
+        <module>untitled1</module>
+        <module>firstTest</module>
+    </modules>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -23,7 +29,6 @@
             <artifactId>selenium-java</artifactId>
             <version>4.38.0</version>
         </dependency>
-
     </dependencies>
 
     <properties>
